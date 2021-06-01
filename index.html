@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Clock</title>
+</head>
+<body>
+
+    <div class="container">
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider"><span class="slider round"></span>
+        </label>
+        <!--<button id="switch" onclick="toggleTheme()">Switch</button>-->
+    </div>
+
+
+    <div class="container" id="time">
+        <span id="my-clock-display" class="clock" onload="showTime()"></span>
+        <span id="am-pm"></span>
+    </div>
+</body>
+<script src="script/script.js"></script>
+</html>
