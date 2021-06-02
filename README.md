@@ -1,2 +1,2 @@
 # Clock
-Simple clock display on webpage
+Simple clock display with dark/light theme on webpage
